@@ -1,30 +1,29 @@
+import Bomii from '../assets/bomii.jpeg'
+import Etrange from '../assets/etrange.jpeg'
+import Worthwhile from '../assets/worthwhile.jpeg'
+
 const people = [
   {
-    name: 'wunmiworthwhile',
-    role: 'Co-Founder/CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    name: "wunmiworthwhile",
+    role: "Co-Founder/CEO",
+    imageUrl: Worthwhile,
   },
   {
-    name: 'Sholabomii',
-    role: 'Co-Founder',
-    imageUrl:
-      'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    name: "Sholabomii",
+    role: "Co-Founder",
+    imageUrl: Bomii,
   },
   {
-    name: 'étrange',
-    role: 'Co-Founder',
-    imageUrl:
-      'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    name: "étrange",
+    role: "Co-Founder",
+    imageUrl: Etrange,
   },
   {
-    name: 'quarter21',
-    role: 'Co-Founder',
-    imageUrl:
-      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  }
-  
-]
+    name: "quarter21",
+    role: "Co-Founder",
+    imageUrl: "",
+  },
+];
 
 export default function People() {
   return (
@@ -35,11 +34,14 @@ export default function People() {
             Meet our leadership
           </h2>
           <p className="mt-6 text-lg/8 text-gray-400">
-            We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the
-            best results for our clients.
+            We’re a dynamic group of individuals who are passionate about what
+            we do and dedicated to delivering the best results for our clients.
           </p>
         </div>
-        <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+        <ul
+          role="list"
+          className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2"
+        >
           {people.map((person) => (
             <li key={person.name}>
               <div className="flex items-center gap-x-6">
@@ -49,8 +51,12 @@ export default function People() {
                   className="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10"
                 />
                 <div>
-                  <h3 className="text-base/7 font-semibold tracking-tight text-white">{person.name}</h3>
-                  <p className="text-sm/6 font-semibold text-indigo-400">{person.role}</p>
+                  <h3 className="text-base/7 font-semibold tracking-tight text-white">
+                    {person.name}
+                  </h3>
+                  <p className="text-sm/6 font-semibold text-indigo-400">
+                    {person.role}
+                  </p>
                 </div>
               </div>
             </li>
@@ -58,5 +64,5 @@ export default function People() {
         </ul>
       </div>
     </div>
-  )
+  );
 }

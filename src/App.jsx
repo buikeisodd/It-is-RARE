@@ -1,6 +1,8 @@
 // import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import Pricing from './components/pricing'
 import People from './components/people'
+
+
 import "./App.css";
 
 function App() {
