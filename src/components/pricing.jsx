@@ -1,4 +1,4 @@
-import { CheckIcon } from "@heroicons/react/20/solid/CheckIcon";
+import  CheckIcon  from "@heroicons/react/20/solid/CheckIcon";
 
 const tiers = [
   {
