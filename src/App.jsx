@@ -1,4 +1,5 @@
 // import "mdb-react-ui-kit/dist/css/mdb.min.css";
+import Pricing from './components/pricing'
 import "./App.css";
 
 function App() {
@@ -145,9 +146,12 @@ function App() {
           </div>
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <div className="text-center">
-              <h1 className="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">
-                We don't just make music. We build legacies.
+              <h1 className="text-5xl font-semibold tracking-tight text-balance text-white sm:text-8xl">
+                We don't just make music,
               </h1>
+              <h2 className="text-4xl font-semibold tracking-tight text-balance text-white sm:text-6xl">
+                We build legacies.
+              </h2>
               <p className="mt-8 text-sm font-medium text-pretty text-stone-200 sm:text-xl/8 italic">
                 We believe every great artist deserves a team that's as hungry
                 as they are. That's why we invest in talent, not trends.
@@ -179,6 +183,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Pricing />
     </>
   );
 }
