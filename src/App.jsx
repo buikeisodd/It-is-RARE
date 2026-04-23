@@ -1,6 +1,7 @@
 // import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import Pricing from './components/pricing'
 import People from './components/people'
+import Embed from './components/embedded'
 
 
 import "./App.css";
@@ -188,6 +189,7 @@ function App() {
       </div>
       <Pricing />
       <People />
+      <Embed />
     </>
   );
 }
