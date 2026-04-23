@@ -1,5 +1,6 @@
 // import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import Pricing from './components/pricing'
+import People from './components/people'
 import "./App.css";
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
             className="flex items-center justify-between p-6 lg:px-8"
           >
             <div className="flex lg:flex-1">
-              <h1 className="text-gray-200 font-bold">Rare Motion.</h1>
+              <h1 className="text-gray-200 font-bold text-xl">Rare Motion.</h1>
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only text-blue-700">Rare Motion.</span>
               </a>
@@ -150,7 +151,7 @@ function App() {
                 We don't just make music,
               </h1>
               <h2 className="text-4xl font-semibold tracking-tight text-balance text-white sm:text-6xl">
-                We build legacies.
+                we build legacies.
               </h2>
               <p className="mt-8 text-sm font-medium text-pretty text-stone-200 sm:text-xl/8 italic">
                 We believe every great artist deserves a team that's as hungry
@@ -184,6 +185,7 @@ function App() {
         </div>
       </div>
       <Pricing />
+      <People />
     </>
   );
 }
