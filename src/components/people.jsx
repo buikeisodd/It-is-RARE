@@ -1,6 +1,7 @@
 import Bomii from '../assets/bomii.jpeg'
 import Etrange from '../assets/etrange.jpeg'
 import Worthwhile from '../assets/worthwhile.jpeg'
+import Roju from '../assets/roju.jpeg'
 
 const people = [
   {
@@ -22,6 +23,11 @@ const people = [
     name: "quarter21",
     role: "Co-Founder",
     imageUrl: "",
+  },
+  {
+    name: "Aderoju",
+    role: "Co-Founder",
+    imageUrl: Roju,
   },
 ];
 
